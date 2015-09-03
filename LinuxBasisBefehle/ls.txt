@@ -1,0 +1,8 @@
+Der Befehl ls zeigt Datein und Orbner an.
+
+ls -la
+	#-l: Die Langfassung wird angezeigt
+	#-a: Alle Dateien und Ordner (auch die versteckten) werden angezeigt
+
+ls -l Verzeichnis
+	#zeigt den Inhalt des Ordners Verzeichnis in der Langfassung an
