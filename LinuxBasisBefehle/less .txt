@@ -1,0 +1,5 @@
+Zeigt den Inhalt einer Datei an
+
+less dateiname
+
+	#die Einabe von q beendet die Datei
