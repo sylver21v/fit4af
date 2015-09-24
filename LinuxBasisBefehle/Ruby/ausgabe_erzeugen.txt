@@ -17,7 +17,9 @@ Zusammengesetzte Ausgabe:
 	puts var + "" + zahl.to_s
 
 	puts "#{var} #{zahl}"
-		# Am Anfang und am Ende müssen doppelte Anführungszeichen stehen.																		# Innerhalb des Konstruktes #{} wird jeder Ruby-Code ausgeführt.																		Es findet eine automatische Konvertierung in einem String statt.	
+		# Am Anfang und am Ende müssen doppelte Anführungszeichen stehen.																		
+		# Innerhalb des Konstruktes #{} wird jeder Ruby-Code ausgeführt.																		
+		Es findet eine automatische Konvertierung in einem String statt.	
 
 Ausgabe formatieren:
 	puts "Die \"Woche\" besteht aus:\n\tMontag.\n\tDienstag."
