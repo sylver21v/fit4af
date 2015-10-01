@@ -1,3 +1,21 @@
+class Playlist
+	def initialize(name)
+		@name=name
+		@movies=[]
+	end
+	def add_movie(movie)
+			@movies<<movie
+	end
+	def play
+		puts "Playlist heisst: #{@name.capitalize}"
+		# @movies.each do |movie|
+		# 	movie.thumbs_up
+		# 	movie.thumbs_up
+		# 	puts movie
+	end
+end
+
+
 class Movie
 	def initialize(ptitle, prank=50)
 		@title=ptitle.capitalize
@@ -24,3 +42,8 @@ movies = [movie1, movie2, movie3]
 movies.each do |movie|
 	puts movie
 end
+
+playlist=Playlist.new('Horrorfilme')
+playlist.add_movie(movie1)
+playlist.add_movie(movie2)
+playlist.play

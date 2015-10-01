@@ -7,3 +7,43 @@ f. notieren Sie den Befehl
 g. ermitteln Sie den Befehl mit dem Sie die Positionen der Elemente des Arrays nach einem Zufallsprinzip anordnen koennen
 h. packen Sie Ihre drei Player aus dem Projekt in ein Array
 i. Geben Sie Player mit einer Iteration über das Array aus. Beginnen Sie mit einer Zeile, in der sie die Anzahl der Mitspieler notieren
+
+
+a.jz=["Sommer", "Herbst", "Winter"]
+ 	=> ["Sommer", "Herbst", "Winter"]
+
+ 	jzk=%(sommer herbst winter)
+ 	=> ["Sommer", "Herbst", "Winter"]
+
+b.jz.length					.count
+ 	=> 3
+ 	jzk.length
+ 	=> 3 
+
+
+ 	jz[1]
+ 	=>"Herbst"
+
+c.jz.push('Freuhjahr')
+ 	=> ["Sommer", "Herbst", "Winter", "Freuhjahr"]
+
+d.jz.pop
+ 	=> "Freuhjahr"
+
+e.jz.join(' und ')
+  => "Sommer und Herbst und Winter"
+  #.join ()fügt zwischen die arrays den gewünschten Inhalt ein und gibt sie vollständig aus.
+
+f. jz.shuffle
+	 => ["Winter", "Sommer", "Herbst"]
+
+g.
+
+h.
+
+i.projekt=[player1, player2]
+
+	puts "Anzahl Spieler #{projekt.count}"
+	projekt.each do |var|
+
+	end
