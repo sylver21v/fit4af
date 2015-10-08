@@ -1,12 +1,12 @@
 class Game
-	def initialize(ititle)
+	def initialize(ititle) #Ausgabenstellung a
 		@title = ititle
 		@player = []
 	end
-	def add_player(name)
+	def add_player(name)	#Aufgabenstellung b
 		@player << name
 	end
-	def play
+	def play 							#Aufgabenstellung c
 		puts "There are #{@player.count} players in Knuckleheads:#{@player}"
 		@player.each do |status|
 			puts status
