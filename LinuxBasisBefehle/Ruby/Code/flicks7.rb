@@ -55,7 +55,7 @@ a1.each do |val|
 	arraysquare << val * val
 end
 puts arraysquare.to_s
-
+puts "___________________________________________"
 
 # g. ! Durchlaufen Sie das Array und speichern Sie die Quadratzahlen in einem Hash mit der Zahl als Schlüssel
 
