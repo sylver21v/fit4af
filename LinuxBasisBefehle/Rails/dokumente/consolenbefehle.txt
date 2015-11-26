@@ -1,0 +1,10 @@
+
+Anlegen eines Projektes
+	rails new <projekt_name>
+
+Starten eines Servers
+	cd <projektname>
+	rails s
+
+	STRG+c 	beendet den Server
+

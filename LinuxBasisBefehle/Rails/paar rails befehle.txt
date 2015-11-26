@@ -1,0 +1,13 @@
+rails new bookstore
+
+rails s 					#starten des Servers! Auf Verzeichniss achten
+
+strg c 						#beendet den Server in dem jeweiligem Verzeichniss
+
+rails g scaffold books author:string title:string description:text published:datetime price:decimal
+
+rake db:migrate
+
+rake routes
+
+rails c
