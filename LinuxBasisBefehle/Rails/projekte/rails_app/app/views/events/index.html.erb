@@ -1,5 +1,15 @@
 <h1>Events</h1>
-<p>Folgende <%= @events.size %> Events sind vorhanden</p>
+<p><%= "#{pluralize(@events.size, "Event ist", "Events sind")}" %> vorhanden</p>
+
+<%= @events.size == 1 ? "#{@events.size} Event ist" : "#{@events.size} Events sind" %> vorhanden
+<br>
+<br>
+<% if @events.size == 1 %>
+	<%= "#{@events.size} Events ist" %>
+<% else %>
+	<%= "#{@events.size} Events sind" %>
+<% end %> vorhanden
+<br>
 <table>
 	<tr>
 		<th>NAME </th>
@@ -12,9 +22,9 @@
 	<tr>
 		<td><%= event.name %></td>
 		<td><%= event.description %></td>
-		<td><%= event.start_at %></td>
+		<td><%= event.date %></td>
 		<td><%= event.location %></td>
-		<td><%= number_to_currency(event.price, unit: " € ") %></td>
+		<td><%= format_price(event) %></td>
 	</tr>
 <% end %>
 </table>

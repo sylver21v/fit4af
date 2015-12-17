@@ -1,0 +1,1 @@
+rails g scaffold movie title:string rating:string total_gross:decimal descreption:text released_on:date
